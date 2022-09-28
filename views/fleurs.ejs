@@ -1,0 +1,16 @@
+<%- include('partials/head.ejs') %>
+
+    <main>
+        <ul>
+            <% for(let fleur of fleurs) { %>
+                <li>
+                    <a href="/fleur/<%= fleur.name %>">
+                        <%= fleur.name %>
+                    </a>
+                </li>
+                <% } %>
+        </ul>
+    </main>
+  
+  <%- include('partials/footer.ejs') %>
+  

@@ -1,0 +1,16 @@
+<%- include('partials/head.ejs', {
+    title: flowerFound.name
+  }) %>
+
+    <main>
+        <p>Voici ta fleur preferée !</p>
+        <p>Voici Une petite description : <%= flowerFound.desc %></p>
+        <img src="<%= flowerFound.imgUrl %>" alt="<%= flowerFound.name %>"><br>
+        <button class="opinion">Qu'est ce que t'en penses ? </button>
+        <button><a href="/fleurs">Retour</a></button>
+    </main>
+
+
+    <%- include('partials/footer.ejs') %>
+
+
