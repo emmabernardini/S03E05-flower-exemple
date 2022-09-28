@@ -14,7 +14,7 @@ Exercice Express/EJS pour un peu de pratique !
 5. Créer la route **"/fleurs"** et la lier à une page ejs rangée dans le dossier **views**. Créer la page ejs permettant d'obtenir une la liste des fleurs contenues dans le module créé ci-dessus (via une boucle, et non en dur !). (Il peut être recommandé de créer des fichiers partiaux, comme header et footer, pour éviter de répéter ces long et illisibles bouts d'HTML si jamais on refait la même page !)
 6. Rendre les fleurs cliquables pour la suite, via un lien qui aurait le format **"/fleur/nomDeLaFleur"**. 
    
-   ![IMG1](/img/IMG1.png)
+   ![IMG1](/ressources_enonce/IMG1.png)
 
 
 ## Le dynamisme 
@@ -23,7 +23,7 @@ Exercice Express/EJS pour un peu de pratique !
 8. Cette route doit conduire vers une page contenant le *nom de la fleur* et la *description* (à récupérer dans le module flowers créé précédemment !) -C'est ici qu'on peut réutiliser header et footer créé précédemment-
 9. Si vous le souhaitez, vous pouvez modifier le title de la page (dans le head) pour qu'il soit aussi dynamique en fonction de la fleur. Si vous avez créé un fichier header à part, il faudra l'ajouter avec des paramètres pour cela !
    
-   ![IMG2](/img/IMG2.png)
+   ![IMG2](/ressources_enonce/IMG2.png)
 
 ## Les fichiers publics
 
@@ -44,4 +44,4 @@ Exercice Express/EJS pour un peu de pratique !
 
 ### Bon courage à tous ! 
 
-   ![IMG3](/img/IMG3.png)
+   ![IMG3](/ressources_enonce/IMG3.png)

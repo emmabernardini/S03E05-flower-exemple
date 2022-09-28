@@ -12,13 +12,6 @@ router.get('/', (request, response) => {
   response.sendFile('index.html', {root: './views'}); // Pour remonter sans prendre un forbidden, on doit l'écrire en relatif si on remonte avec le Root
 });
 
-router.get('/woaw', (request, response) => {
-    // Maintenant que EJS est installé ET configuré
-    // Je peut utiliser la méthode render qui va s'occuper de générer le rendu avec le fichier ejs indiqué. 
-    // De base render va aller chercher dans le dossier views.
-    response.render('woaw');
-  });
-
   router.get('/fleurs', (request, response) => {
     // Maintenant que EJS est installé ET configuré
     // Je peut utiliser la méthode render qui va s'occuper de générer le rendu avec le fichier ejs indiqué. 
